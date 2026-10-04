@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Freedom Dumpsters provides local roll-off dumpster rentals across Parker County and North Texas.">
+  <title>Freedom Dumpsters | Parker County Roll-Off Rentals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Freedom Dumpsters home">
+      <span class="brand-star">★</span>
+      <span><strong>FREEDOM</strong><small>ENVIRONMENTAL &amp; LOGISTICS</small></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main navigation">
+      <a href="#how">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#materials">Materials</a>
+      <a href="#giving">Giving Back</a>
+      <a class="nav-cta" href="#book">Book Now</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="flag-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Parker County &amp; North Texas</p>
+        <h1>Roll-Off Dumpsters Made Simple.</h1>
+        <p class="hero-copy">Local service, clear pricing, easy booking, and a commitment to stronger local schools.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#book">Book a Dumpster</a>
+          <a class="button button-secondary" href="tel:+18175550100">Call or Text Us</a>
+        </div>
+        <p class="hero-note">Freedom contributes 3% of eligible rental revenue to local education foundations.</p>
+      </div>
+    </section>
+
+    <section class="trust-bar" aria-label="Business benefits">
+      <div>Locally owned</div><div>Easy digital booking</div><div>Driveway-conscious delivery</div><div>Supporting local education</div>
+    </section>
+
+    <section id="how" class="section">
+      <div class="section-heading"><p class="eyebrow">Simple from start to finish</p><h2>How It Works</h2></div>
+      <div class="steps">
+        <article><span>1</span><h3>Choose your date</h3><p>Request a 14-yard dumpster for a cleanout, remodel, shop, ranch, or jobsite.</p></article>
+        <article><span>2</span><h3>Book with Liberty</h3><p>Our virtual booking assistant helps check pricing, availability, and approved materials.</p></article>
+        <article><span>3</span><h3>We deliver</h3><p>We place your container carefully on private property and keep communication simple.</p></article>
+        <article><span>4</span><h3>Text “PICKUP”</h3><p>When you are finished, request pickup and we will schedule retrieval.</p></article>
+      </div>
+    </section>
+
+    <section id="pricing" class="section section-alt">
+      <div class="section-heading"><p class="eyebrow">Straightforward pricing</p><h2>14-Yard Freedom Dumpster</h2><p>Ideal for household cleanouts, furniture, flooring, small remodels, garage cleanouts, and approved general debris.</p></div>
+      <div class="pricing-card">
+        <div><p class="price-label">Starting at</p><p class="price">$425<span> / 7 days</span></p><p class="muted">Brock-area pricing. Your exact price is based on delivery address and material type.</p></div>
+        <ul>
+          <li>Delivery and pickup included</li>
+          <li>Up to 7 rental days</li>
+          <li>Up to 2 tons of approved debris</li>
+          <li>$15 per additional day</li>
+          <li>$95 per additional ton</li>
+        </ul>
+        <a class="button button-primary" href="#book">Check My Price</a>
+      </div>
+    </section>
+
+    <section id="materials" class="section two-column">
+      <div>
+        <p class="eyebrow">Before you book</p><h2>What can go in a dumpster?</h2>
+        <p>We accept approved nonhazardous household and construction debris. Liberty will help confirm the right option for your project.</p>
+        <div class="material-grid"><div><h3>Generally accepted</h3><p>Furniture, household debris, wood, drywall, flooring, fixtures, and nonhazardous renovation debris.</p></div><div><h3>Owner approval required</h3><p>Concrete, dirt, brick, tile, shingles, appliances, tires, mattresses, and unusually heavy materials.</p></div></div>
+      </div>
+      <aside class="alert"><h3>We cannot accept</h3><p>Hazardous materials, liquids, paint, chemicals, batteries, propane cylinders, medical waste, asbestos-containing material, or unknown drums.</p><a href="#book">Ask Liberty about your material →</a></aside>
+    </section>
+
+    <section id="giving" class="giving">
+      <div><p class="eyebrow">Freedom gives back</p><h2>Your rental helps support local education.</h2><p>Freedom Dumpsters independently contributes 3% of eligible rental revenue to education foundations in the communities we serve. This company-funded commitment is not added to your rental price.</p></div>
+      <div class="giving-badge"><span>3%</span><small>of eligible rental revenue returned to local education</small></div>
+    </section>
+
+    <section id="book" class="section book-section">
+      <div class="section-heading"><p class="eyebrow">Get started</p><h2>Request a dumpster or ask Liberty for help.</h2><p>We are currently accepting reservation requests. Standard jobs are confirmed after address, material, availability, rental agreement, and payment review.</p></div>
+      <form id="booking-form" class="booking-form" novalidate>
+        <label>Full name<input name="name" required autocomplete="name"></label>
+        <label>Mobile number<input name="phone" type="tel" required autocomplete="tel"></label>
+        <label>Email address<input name="email" type="email" required autocomplete="email"></label>
+        <label>Delivery address<input name="address" required autocomplete="street-address"></label>
+        <label>City<input name="city" required autocomplete="address-level2"></label>
+        <label>What are you disposing of?<select name="material" required><option value="">Select one</option><option>General household debris</option><option>Furniture / estate cleanout</option><option>Remodeling debris</option><option>Yard / shop cleanup</option><option>Roofing shingles</option><option>Concrete, dirt, brick, tile, or asphalt</option><option>Other / not sure</option></select></label>
+        <label>Preferred delivery date<input name="date" type="date" required></label>
+        <label class="wide">Placement and project notes<textarea name="notes" rows="4" placeholder="Driveway, gate, rural access, material details, or other helpful information"></textarea></label>
+        <label class="consent wide"><input name="consent" type="checkbox" required>I agree that Freedom Environmental &amp; Logistics may contact me by call, email, or text about this request. Message and data rates may apply.</label>
+        <button class="button button-primary wide" type="submit">Send My Request</button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+      <p class="form-footnote">This starter form does not process payment or create a confirmed booking. Connect it to your booking, payment, and AI systems before accepting live reservations.</p>
+    </section>
+  </main>
+
+  <aside class="liberty" aria-label="Liberty virtual booking assistant">
+    <div class="liberty-avatar">L</div><div><strong>Hi, I’m Liberty.</strong><p>Freedom Dumpsters’ virtual booking assistant.</p><a href="#book">Get a price or request a booking →</a></div>
+  </aside>
+
+  <footer class="site-footer"><div><strong>Freedom Dumpsters</strong><p>A service of Freedom Environmental &amp; Logistics, LLC</p></div><div><a href="mailto:info@freedom-enviro.com">info@freedom-enviro.com</a><a href="#book">Book a Dumpster</a></div><p class="copyright">© <span id="year"></span> Freedom Environmental &amp; Logistics, LLC. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
