@@ -14,7 +14,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 const form = document.getElementById('booking-form');
 const status = document.getElementById('form-status');
-const FORM_ENDPOINT = 'https://formsubmit.co/ajax/info@freedom-enviro.com';
+const FORM_ENDPOINT = 'https://formsubmit.co/ajax/freedom-enviro@mail.grokbot.com';
 const submitButton = form.querySelector('button[type="submit"]');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
